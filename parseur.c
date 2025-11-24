@@ -29,7 +29,7 @@ int	parseur(const char *str, va_list *args)
 			{
 				flag = str[i++ + 1];
 			}
-			if (str[i + 1] != 0 && is_in(str[i + 1], "cspdiuxX%"))
+			if (str[i + 1] != 0 && is_in(str[i + 1], "cspdiuxX%f"))
 				size += ft_printarg(str[i++ + 1], args, flag);
 		}
 		else

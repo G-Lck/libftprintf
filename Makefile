@@ -7,6 +7,7 @@ SRCS = ft_printarg.c \
 	ft_putnbr_u.c \
 	ft_putnbr.c \
 	ft_putptr.c \
+	ft_putfloat.c \
 	ft_putstr.c \
 	is_in.c \
 	parseur.c

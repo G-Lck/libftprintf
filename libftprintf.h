@@ -26,6 +26,7 @@ int	ft_putnbr_hexalong(long long unsigned int x, int lower, int size);
 int	ft_putnbr_u(unsigned int n, int size);
 int	ft_putnbr(int n, int size, int flag);
 int	ft_putptr(long long unsigned int ptr);
+int	ft_putfloat(double f, int precision);
 int	is_in(char c, char *set);
 int	parseur(const char *str, va_list *args);
 

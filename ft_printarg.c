@@ -35,5 +35,7 @@ int	ft_printarg(const char c, va_list *args, int flag)
 		size += ft_putnbr_hexa(va_arg(*args, unsigned int), 1, 0, flag);
 	if (c == 'X')
 		size += ft_putnbr_hexa(va_arg(*args, unsigned int), 0, 0, flag);
+	if (c == 'f')
+		size += ft_putfloat(va_arg(*args, double), 6);
 	return (size);
 }
